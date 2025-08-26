@@ -3,6 +3,6 @@
 
 mvn clean package
 
-docker build -t shade:2 .
-mkdir -p phase2
-docker save shade:2 > phase2/thing2.what
+docker build -t shade:3 .
+mkdir -p phase3
+docker save shade:3 > phase3/thing3.what

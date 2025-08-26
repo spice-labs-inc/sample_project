@@ -1,4 +1,4 @@
-FROM eclipse-temurin:21-jre-alpine-3.20
+FROM eclipse-temurin:21-ubi9-minimal
 RUN mkdir -p /usr/local/jars
 
 COPY ./target/simple-shade.jar /usr/local/jars/
