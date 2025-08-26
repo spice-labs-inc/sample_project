@@ -3,3 +3,4 @@ target/*
 thing*.what
 dependency-reduced-pom.xml
 output/*
+.vscode/*
