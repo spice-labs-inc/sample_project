@@ -30,7 +30,7 @@ If you want to test it, type `docker run -ti --rm shade:1`
 You will also see generated artifact `phase1/thing1.what`
 
 Then run the [Spice Labs CLI](https://github.com/spice-labs-inc/spice-labs-cli):
-`spice  --input=phase1 --tag=shade`
+`spice survey inventory shade phase1`
 
 This will build an [Artifact Dependency Graph](https://omnibor.io/) for the 
 container you created and then upload that ADG to your project on Spice Labs.
@@ -53,7 +53,7 @@ If you want to test it, type `docker run -ti --rm shade:2`
 You will also see generated artifact `phase2/thing2.what`
 
 Then run the [Spice Labs CLI](https://github.com/spice-labs-inc/spice-labs-cli):
-`spice  --input=phase2 --tag=shade`
+`spice survey inventory shade phase2`
 
 ### Phase 3
 
@@ -70,4 +70,4 @@ If you want to test it, type `docker run -ti --rm shade:3`
 You will also see generated artifact `phase3/thing3.what`
 
 Then run the [Spice Labs CLI](https://github.com/spice-labs-inc/spice-labs-cli):
-`spice  --input=phase3 --tag=shade`
+`spice survey inventory shade phase3`
